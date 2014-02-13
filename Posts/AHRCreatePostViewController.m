@@ -8,7 +8,7 @@
 
 #import "AHRCreatePostViewController.h"
 
-@interface AHRCreatePostViewController ()
+@interface AHRCreatePostViewController () <UITextFieldDelegate>
 
 @end
 
@@ -33,6 +33,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Text Field Delegate
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    self.inputUserName = textField.text;
+    
 }
 
 @end

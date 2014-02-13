@@ -77,6 +77,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="inputUserName:" destination="Mfy-5h-EHV" eventType="editingDidEnd" id="nHP-ld-gNz"/>
+                                    <outlet property="delegate" destination="Mfy-5h-EHV" id="3r8-Kf-c9w"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Post Title" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="05F-jE-Ueo">
@@ -86,6 +87,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="inputPostTitle:" destination="Mfy-5h-EHV" eventType="editingDidEnd" id="zdW-tE-Dtb"/>
+                                    <outlet property="delegate" destination="Mfy-5h-EHV" id="12o-Wk-nKi"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Compose Post" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jAq-3k-UHM">
@@ -96,6 +98,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="inputPostContent:" destination="Mfy-5h-EHV" eventType="editingDidEnd" id="dFS-uS-QZ4"/>
+                                    <outlet property="delegate" destination="Mfy-5h-EHV" id="hMi-zp-1dS"/>
                                 </connections>
                             </textField>
                         </subviews>
